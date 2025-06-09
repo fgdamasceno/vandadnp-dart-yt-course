@@ -22,7 +22,7 @@ void main(List<String> args) {
   const Set<int> someSet = {1, 2, 3}; // do not allow duplicate values
   print(someSet);
 
-  dynamic someNull = null; // basicamente pode receber outros tipos de valores
+  dynamic someNull; // basicamente pode receber outros tipos de valores
   print(someNull);
   someNull = "Fernando";
   print(someNull);
